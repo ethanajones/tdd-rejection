@@ -6,10 +6,10 @@ You gotta lose to win.
 
 Train yourself to:
 
-* Get a raise
-* Sell more
-* Develop more business
-* Negotiate better deals
+- Get a raise
+- Sell more
+- Develop more business
+- Negotiate better deals
 
 The game has one rule:
 
@@ -22,7 +22,6 @@ Rejection = 10 points.
 
 How long can you make your rejection streak last?
 
-
 ## Basic Level
 
 Build a UI that lets you keep track of your score. Include a text input for the ask, who you asked, and two buttons: "Accepted" or "Rejected". For asynchronous requests such as emails or messages, record the score at the time you get the answer, not at the time you ask.
@@ -31,9 +30,9 @@ Your data structure can be a simple array of ask objects:
 
 ```js
 interface Question {
-  question: String,    // the ask
-  askee: String,       // person asked
-  status: String       // 'Accepted', 'Rejected', 'Unanswered'
+  question: String; // the ask
+  askee: String; // person asked
+  status: String; // 'Accepted', 'Rejected', 'Unanswered'
 }
 ```
 
@@ -47,4 +46,3 @@ It may be useful to display a running tally of the user's current score. Just re
 2. Write some code to make it pass
 3. Refactor
 4. Repeat
-

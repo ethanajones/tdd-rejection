@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test babel-node ./src/index-test.js",
-    "watch": "watch 'npm run -s test | tap-nirvana' src",
+    "watch": "watch 'clear && npm run -s test | tap-nirvana' src",
     "update": "updtr"
   },
   "keywords": [],
